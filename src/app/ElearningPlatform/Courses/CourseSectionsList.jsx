@@ -12,7 +12,7 @@ import {
 import NoteIcon from '@mui/icons-material/Note'
 import QuizIcon from '@mui/icons-material/Quiz'
 
-import courseSectionsList from './courseSectionsList'
+import courseSectionsList from './courseSectionsListData'
 import CourseVideo from './CourseVideo'
 
 const Accordion = styled((props) => (

@@ -2,11 +2,12 @@ import React, { useState } from 'react'
 import { Box, Grid, Typography, Button, Dialog, DialogTitle, DialogContentText, DialogContent, DialogActions, useMediaQuery } from '@mui/material'
 import { useTheme } from '@mui/material/styles'
 
-import coursesDataList from '../Home/coursesDataList'
+// import coursesDataList from '../Home/coursesDataListData'
+// import CourseSectionsList from './CourseSectionsList'
 import CourseSectionsList from './CourseSectionsList'
 
 const CourseContent = () => {
-  const course = coursesDataList[0].courses[0]
+  // const course = coursesDataList[0].courses[0]
 
   const theme = useTheme()
   return (
